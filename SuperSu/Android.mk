@@ -20,7 +20,7 @@ endif
 ifneq ($(local_arch),)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SuperSu
+LOCAL_MODULE := Superuser
 LOCAL_SRC_FILES := common/$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
